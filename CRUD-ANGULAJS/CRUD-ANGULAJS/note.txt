@@ -1,0 +1,4 @@
+http://localhost/phpmyadmin/
+//https://www.youtube.com/watch?v=0gT7WzQzfgw
+//http://softaox.info/angularjs/insert-update-delete-data-in-mysql-using-angularjs-with-php/
+// utf8_unicode_ci

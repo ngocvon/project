@@ -1,0 +1,26 @@
+[
+		{
+			"name" 		 : "Acoustic Guitar",
+			"description": "Acoustic, electro-acoustic and classical guitars, from leading brands.",
+			"image"	:  "Acoustic",
+			"price" : "23.78",
+			"dateAdded" : "1403926823000",
+			"category" : "expensive"
+		},
+		{
+			"name" 		 : "Electric Guitar",
+			"description": "Ever-popular solid-body guitars, to hollow-body guitars and archtops.",
+			"image"	:  "Electric",
+			"price" : "18.34",
+			"dateAdded" : "1399779623000",
+			"category" : "expensive"
+		},
+		{
+			"name" 		 : "Bass Guitar",
+			"description": "Classic Fender Bass, Precision and Jazz basses, to Gibson Thunderbirds.",
+			"image"	:  "Bass",
+			"price" : "35.98",
+			"dateAdded" : "1402544423000",
+			"category" : "cheap"
+		}
+]

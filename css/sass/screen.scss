@@ -1,0 +1,99 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+*:focus{ outline:none; outline:0;}
+
+.clear{ clear:both; line-height:0px; font-size:0px;}
+img{ border:none;font-size:0px;max-width:100%}
+.logo{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.highcharts-button,.highcharts-title{display:none;}
+.title{
+  background:#ffc525;
+  padding:5px 10px;
+  color:#fff;
+  border-radius: 5px 5px 0px 0px;
+  font-weight: bold;
+  min-height: 36px;
+  line-height: 36px;
+}
+.boxData{
+  .title{
+    p{
+      display: inline-block;
+      margin-bottom:0px;
+    }
+    input{
+      display: inline-block;
+      height: 35px;
+      width: 200px;
+      margin: 0px 10px;
+      padding: 8px 10px;
+      line-height: 1;
+      background:#fed973;
+      outline: none;
+      border: none;
+    }
+    .fromAdddata{
+      background:#fed973;
+      color: #fff;
+    }
+  }
+}
+.jumbotron{
+  margin-bottom:0px;
+}
+.removeData,.editData{
+  cursor: pointer;
+}
+.col-gender{
+    margin-top: 10px;
+    span{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 0px 10px;
+      input{
+            width: 20px;
+          height: 20px;
+      }
+      label{
+        vertical-align: top;
+        margin-bottom: 0px;
+        text-transform: capitalize;
+      }
+    }
+}
+.action{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	a{
+		display:block;
+	}
+	p{
+		margin:0px 10px;
+	}
+}
+
+.multiSelect{
+	> button{
+		width: 100%;
+		text-align: left !important;
+	}
+	.caret{
+		position: relative;
+		top: 7px;
+		right: 5px;
+		float: right;
+	}
+}
+.multiSelect .show{
+	min-width: 356px;
+}
+input.error{border: 1px solid red;}
+label.error{display:none !important;}
